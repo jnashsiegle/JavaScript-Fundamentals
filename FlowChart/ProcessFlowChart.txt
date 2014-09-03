@@ -2,17 +2,75 @@ ProcessFlowChart
 
 Create a flow chart that represents an instruction for something in real life.
 This could be something you do on a day-to-day basis (like how to jump a car) or it could be something eventful like bungee jumping.
+
 Criteria
 * Because we use factory and recipe metaphors throughout the class, these themes/tasks should not be used. You will be graded (partially) on originality.
+
 * You can use flowcharting software of your choice, or Word, or Adobe Illustrator or Photoshop. Yed is a popular one. I suggest using Google Docs. (here's a how to)
+
 * Be sure to use the correct symbols. ÿYou must use at least: Diamonds, Rectangles, Flow Line Arrows and Ovals (rounded rectangles).
+
 * Your flow chart should have a minimum of 5 steps.
+
 * It must have a single starting and a single ending point and must be easy to walk through.
+
 * You must include one of each of the following types of code:
 o Sequential -ÿSome element of instruction that goes step by step in sequence
 o Conditional -ÿAt leastÿ3ÿexamples ofÿdecisionÿwithin the instruction. For example "If you are at high altitude, then add two eggs, otherwise add one egg"
+
 Deliverables
 Submit your flow chart file in both ways! ÿPlease Upload it to FSO as a backupÿ& It must be on your GitHub Account. ÿI will be grading from your GitHub Account.
+
 Deliverable File(s) and Contents
 You will upload a compressed (Zipped) file namedÿlastname_firstname_FlowChart.zipÿwhich should include:
+
 Notes and Flowchart
+
+
+Wake up
+
+Check clock
+
+Is it 7?
+
+if no, go back to sleep (loop to Òis it 7?Ó)
+if yes, get up
+
+bathroom?
+
+if yes, go to bathroom
+if no, proceed to kitchen for coffee
+
+turn on Keurig
+
+check water levels
+is there enough water in tank?
+
+if yes, proceed 
+if no, fill with water 
+
+choose type of coffee
+
+put k-cup in machine
+
+place coffee cup on machine
+
+is hot water light ready?
+
+if yes, make coffee
+if no, wait (loop to hot water light ready)
+
+side sequence
+
+Input push coffee button
+
+output machine pours coffee into cup
+
+end side sequence
+
+get coffee 
+
+go wake up
+
+end
+
