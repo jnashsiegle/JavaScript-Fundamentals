@@ -36,11 +36,6 @@ Is it 7?
 if no, go back to sleep (loop to Òis it 7?Ó)
 if yes, get up
 
-bathroom?
-
-if yes, go to bathroom
-if no, proceed to kitchen for coffee
-
 turn on Keurig
 
 check water levels
@@ -74,3 +69,6 @@ go wake up
 
 end
 
+13916405294_a1678ce555_o.jpg
+
+Photo Credit: <a href="https://www.flickr.com/photos/51035555243@N01/13916405294/">Thomas Hawk</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc/2.0/">cc</a>
