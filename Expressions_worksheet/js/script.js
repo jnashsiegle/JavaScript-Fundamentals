@@ -85,6 +85,7 @@ console.log("Sparky got " + x + " slices of pizza.");
 // Average Shopping Bill
 
 //Given for Average Shopping Bill
+/*
 
 var monShopping = [125, 76, 243, 59, 116];
 
@@ -108,7 +109,25 @@ console.log("You have spent a total of " + "$"+ total + " on groceries over 5 we
 
 //how to round the x to two decimal places?  Math.round?  but where/how?  *try to come back to
 
+*/
 
+// Discounts
+
+//Givens
+
+var oPrice = 525.00;  //Original Price
+var dPercentage = 20; //Amount of Discount
+var itemDesc = "nice leather couch."; //Description
+var salesTax = .0625;  //6.25%
+
+//Result Variables for item with tax
+
+v = oPrice - (oPrice * .2)  // figure discount + figure discounted price without tax
+x = (v * salesTax) + v;  // take variable for discounted price to figure sales
+
+
+console.log("Your " + itemDesc + " was originally $" + oPrice + " but after a " + dPercentage + "% discount, it is " +
+    "now $" + v + ", and $" + x + " with tax." );
 
 
 
