@@ -34,6 +34,8 @@ var dogYears = 7;
 //Result variable - multiply Sparky's age times 7 to get dog years age
 x = sparkyAge * dogYears;
 
+//output to console the correct sentence
+
 console.log("Sparky is " + sparkyAge + " " + "human years old which is " + x + " " +  "in dog years.");
 
 
@@ -51,9 +53,12 @@ console.log("Sparky is " + sparkyAge + " " + "human years old which is " + x + "
    var people = 40;
    var wholePizza = 10;
 
-//Result variable
+//Result variable - Multiply slices per pizza times the amount of pizza pies divided by the amount of people at the
+// party.
 
 x = (slicePizza * wholePizza) / people;
+
+//output to console the correct sentence
 
 console.log("Each person ate " + x + " slices of pizza at the party." );
 
