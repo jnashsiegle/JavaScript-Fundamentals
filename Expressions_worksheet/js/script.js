@@ -67,6 +67,8 @@ console.log("Each person ate " + x + " slices of pizza at the party." );
 
 //Givens from pt 1.
 
+/*
+
 var slicePizza = 8;
 var people = 40;
 var wholePizza = 10;
@@ -76,7 +78,39 @@ var wholePizza = 10;
 x = (slicePizza * wholePizza) % people
 
 console.log("Sparky got " + x + " slices of pizza.");
-
+*/
 //poor sparky
+
+
+// Average Shopping Bill
+
+//Given for Average Shopping Bill
+
+var monShopping = [125, 76, 243, 59, 116];
+
+//Result Variable for Total Amount Spent on Groceries
+
+var total = monShopping[0] + monShopping[1] + monShopping[2] + monShopping[3] + monShopping[4];
+
+//write to console the total 5 weeks shopping
+console.log(total);
+
+//Result Variable for Average weekly grocery shopping
+x = total / 5;
+
+
+// write to console the average
+console.log(x);
+
+//write to console the average in a sentence
+console.log("You have spent a total of " + "$"+ total + " on groceries over 5 weeks." + "\n" + "That is an average of " + "$" + (x) + " per week.");
+
+//how to round the x to two decimal places?  Math.round?  but where/how?  *try to come back to
+
+
+
+
+
+
 
 
