@@ -103,7 +103,8 @@ x = total / 5;
 console.log(x);
 
 //write to console the average in a sentence
-console.log("You have spent a total of " + "$"+ total + " on groceries over 5 weeks." + "\n" + "That is an average of " + "$" + (x) + " per week.");
+console.log("You have spent a total of " + "$"+ total + " on groceries over 5 weeks." + "\n" + "That is an average of "
+    + "$" + (x) + " per week.");
 
 //how to round the x to two decimal places?  Math.round?  but where/how?  *try to come back to
 
