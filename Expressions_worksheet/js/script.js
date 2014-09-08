@@ -46,7 +46,7 @@ console.log("Sparky is " + sparkyAge + " " + "human years old which is " + x + "
    the pizza is really precise, so this can be a decimal, like 3.52 slices, etc.)
 */
 
-
+/*
    // Givens of people and pizza
 
    var slicePizza = 8;
@@ -61,7 +61,22 @@ x = (slicePizza * wholePizza) / people;
 //output to console the correct sentence
 
 console.log("Each person ate " + x + " slices of pizza at the party." );
+*/
 
+//Slice of Pizza pt 2
 
+//Givens from pt 1.
+
+var slicePizza = 8;
+var people = 40;
+var wholePizza = 10;
+
+//Results Variable - use Modulo to find the remaining slices of pizza for Sparky.
+
+x = (slicePizza * wholePizza) % people
+
+console.log("Sparky got " + x + " slices of pizza.");
+
+//poor sparky
 
 
