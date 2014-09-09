@@ -42,6 +42,7 @@ muppetNames[2] = "Fozzy";
 //var num = 1;
 
 //Adding Concatenating from below partially answered my question
+
 var result = muppetNames[1] + "," +" " +  muppetNames[2] + "," + " " + "Miss Piggy" ;
 
 console.log(result); //how would you include Kermit, Miss Piggy?or how would you list 1 and 2?
