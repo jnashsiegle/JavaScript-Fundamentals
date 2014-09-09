@@ -122,7 +122,7 @@ var salesTax = .0625;  //6.25%
 
 //Result Variables for item with tax
 
-v = oPrice - (oPrice * .2)  // figure discount + figure discounted price without tax
+v = oPrice - (oPrice * .2);  // figure discount + figure discounted price without tax
 x = (v * salesTax) + v;  // take variable for discounted price to figure sales
 
 
