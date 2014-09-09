@@ -16,7 +16,7 @@ var cost = total * 29.99;
 alert("If I use " + userInput + " pounds of dog food a month, then I buy " + result + " bag(s) a month or " + total +
     " bags " + " per year. \n Each bag costs $29.99 so I spend $" + cost + " a year on dog food.");
 
-console.log(result, total, cost);
+console.log(result + " bags a month.  ", total + " bags per year.  ", "I spend $" + cost + " a year on dog food.");
 
 
 
