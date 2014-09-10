@@ -2,7 +2,6 @@
 Jana Nash-Siegle
  Sept 10, 2014
  WPF Section 01
- <name of assignment>
- */
+Assignment: Expression - Wacky */
 
-alert("testing testing 1, 2 3")
+alert("testing testing 1, 2 3");
