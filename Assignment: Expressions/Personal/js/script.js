@@ -1,5 +1,8 @@
 /**
- * Jana Nash-Siegle 9/9/2014 Personal**/
+ * Jana Nash-Siegle
+ * 9/9/2014
+ * WPF
+ * Expression: Assignment - Personal**/
 
 
 //How much dog food will I need in order to feed one dog for one year and how much will it cost?
