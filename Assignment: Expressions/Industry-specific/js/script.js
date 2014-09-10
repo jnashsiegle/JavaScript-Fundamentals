@@ -5,8 +5,6 @@
 /*How can we help you today? Web Design, Mobile Apps, Hosting
 So we can contact you regarding your request, what is your name?
 What is your email?
-What is your phone number?
-
 Thank you, we shall be in touch with you shortly.
  */
 var services = ["SEO"];             //array listing of services to pull into prompts and console
@@ -15,9 +13,8 @@ var services = ["SEO"];             //array listing of services to pull into pro
  services[2] = "mobile apps";
  services[3] = "hosting";
 
-var userInput = prompt("Welcome, how may we help you today?  \n We offer the best in " + services[0] + ", " + services[1] +  ", "
-    + services[2]
-    + ", and " + services[3] + ".\n Please type the " +
+var userInput = prompt("Welcome, how may we help you today?  \n We offer the best in " + services[0] + ", " +
+    services[1] +  ", "    + services[2]    + ", and " + services[3] + ".\n Please type the " +
     "service you would like more information on.");
 
 console.log("Welcome, how may we help you today?  \n We offer the best in " + services[0] + ", " + services[1] +  ", "
@@ -26,13 +23,13 @@ console.log("Welcome, how may we help you today?  \n We offer the best in " + se
 console.log("You would like more information on " + userInput + ".");
 
 var userName = prompt("So we may contact you, please give us your name");
-var userPhone;
-var userEmail;
 
+var userEmail = prompt("What is your email address?");
 
+console.log("Your name is " + userName + "." + "  Your email address is " + userEmail);
 
-console.log("Your name is " + userName + ".");
+alert("Thank you, " + userName + ".  We will soon be in touch.");
 
-
+console.log("Thank you, " + userName + ".  We will soon be in touch using " + userEmail + ".");
 
 
