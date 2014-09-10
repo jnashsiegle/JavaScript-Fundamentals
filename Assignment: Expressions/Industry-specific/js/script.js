@@ -1,5 +1,10 @@
 /**
- * Jana Nash-Siegle 9/9/2014 Industry-Specific**/
+ * Jana Nash-Siegle
+ * 9/10/2014
+ * WPF
+ * Expression: Assignment - Industry Specific
+ *
+ * **/
 
 
 /*How can we help you today? Web Design, Mobile Apps, Hosting
