@@ -6,7 +6,21 @@
 //The dog food comes in 15 pound bags, the serving size is 2 cups and it costs $29.99 per bag.
     //There are 4 cups to the pound
 
+
+    var userInput1 =  prompt("Do you own a dog?");
+        if ( userInput1 == "no");
+        alert("I'm sorry we can't help you.");
+        {
+            skip();
+        }
+
+        if ( userInput1 == "yes");
+        {
+            continue;
+        }
+
 var userInput = prompt("How many pounds of dog food do I use a month?");
+
 
 var result = userInput/15;
 var total = result * 12;
