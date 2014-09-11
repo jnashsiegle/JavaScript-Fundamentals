@@ -6,7 +6,7 @@ Assignment: Expression - Wacky */
 
 //alert("testing testing 1, 2 3");
 
-//Wisdom of the ages number game
+//Wisdom of the ages number game - Simply follow the steps of the game and convert it into js
 
 var birthMonth = prompt("Input the month (by number) of when you were born.");
 console.log("You were born in the " + birthMonth + "(th or nd or rd) month.");
