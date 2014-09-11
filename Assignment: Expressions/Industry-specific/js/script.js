@@ -30,10 +30,10 @@ console.log("You would like more information on " + userInput + ".");
 
 //for mathematical equations in console.log ONLY
 
-var ageCompany = prompt("Please take a small survey for us. \n How old is your company?");
-var empHire = prompt("How many employees do you hire a year?");
-var currentEmp = prompt("How many employees do you currently employ?");
-var hoursWork = prompt("How many hours a week do they work?");
+var ageCompany = prompt("Please take a small survey for us. \n How old is your company?"); //survey request
+var empHire = prompt("How many employees do you hire a year?");  // how many employees hired per year?
+var currentEmp = prompt("How many employees do you currently employ?"); //how many currently employed?
+var hoursWork = prompt("How many hours a week do they work?");  //how many hours a week employees work?
 var years = 20;
 
 var futureCompany = Number(ageCompany) + years;
@@ -47,7 +47,7 @@ console.log("Your " + currentEmp + " employees currently work " + currentHours +
 
 //end console.log ONLY questions
 
-
+//survey - Gather user name, email and send thank you for taking survey
 
 var userName = prompt("So we may contact you, please give us your name");
 
