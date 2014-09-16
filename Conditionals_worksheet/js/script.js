@@ -39,5 +39,16 @@ if(qualWeight >= "250"){
     console.log("The competitor qualifies for the heavyweight division.")
 
 }else {
-    console.log("The competitor needs to gain some weight!")
+    console.log("The competitor needs to gain some weight!");
+}
+
+//Temperature Converter
+
+var degTemp = prompt("What is the temperature?", 32);
+var unitTemp = prompt("Is it be F or C?");
+
+if (unitTemp = "F"){
+    console.log((degTemp - 32) * 5 / 9);
+ }else{
+    console.log(degTemp * 9 / 5 + 32);
 }
