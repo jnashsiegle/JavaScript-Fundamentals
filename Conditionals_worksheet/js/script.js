@@ -45,10 +45,10 @@ if(qualWeight >= "250"){
 //Temperature Converter
 
 var degTemp = prompt("What is the temperature?", 32);
-var unitTemp = prompt("Is it be F or C?");
+var unitTemp = prompt("Is it F or C?");
 
-if (unitTemp = "F"){
+if(unitTemp ===  "F"){
     console.log((degTemp - 32) * 5 / 9);
  }else{
-    console.log(degTemp * 9 / 5 + 32);
+    console.log(degTemp * (9 / 5) + 32);
 }
