@@ -54,3 +54,20 @@ if(unitTemp.toUpperCase() ===  "F"){  //if Temp is F to begin with the results w
     var result1 = (degTemp * (9 / 5) + 32);
     console.log("The temperature is " + result1 + " degrees Fahrenheit.");
 }
+
+//Login Verification
+
+var userName = prompt("What is your User Name?"); //prompts user for user name
+var password = prompt("What is your password?"); // prompts user for password
+var cUserName = "John Doe";  //verification for correct name
+var cPassword = "abc123";  //verification for correct password
+
+if (userName === cUserName && password === cPassword) {  //checks input username and password against correct ones
+        console.log("Welcome " + userName);  //welcomes user if all is correct
+
+ }  else if(password != cPassword){
+        console.log("Password does not match our records.");  //pops this error message if password does not match
+}else{
+        console.log("User not found. Try again.") ; //pops this error message if user name is not correct
+
+}
