@@ -44,11 +44,13 @@ if(qualWeight >= "250"){
 
 //Temperature Converter
 
-var degTemp = prompt("What is the temperature?", 32);
-var unitTemp = prompt("Is it F or C?");
+var degTemp = prompt("What is the temperature?", 32);  //ask user for temperature to convert
+var unitTemp = prompt("Is it F or C?");  //find out if input temp is F or C
 
-if(unitTemp ===  "F"){
-    console.log((degTemp - 32) * 5 / 9);
+if(unitTemp.toUpperCase() ===  "F"){  //if Temp is F to begin with the results will convert to C
+    var result = ((degTemp - 32) * 5 / 9);
+    console.log("The temperature is " + result +  " degrees Celsius.");
  }else{
-    console.log(degTemp * (9 / 5) + 32);
+    var result1 = (degTemp * (9 / 5) + 32);
+    console.log("The temperature is " + result1 + " degrees Fahrenheit.");
 }
