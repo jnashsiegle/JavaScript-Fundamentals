@@ -71,3 +71,17 @@ if (userName === cUserName && password === cPassword) {  //checks input username
         console.log("User not found. Try again.") ; //pops this error message if user name is not correct
 
 }
+
+//Movie Time
+
+var cusAge = prompt("What is your age?"); // get age of movie goer
+var movieTime = prompt("What time will you be attending the movie?", 1); //check movie time attending
+var tickPrice = 12;
+var dTickPrice = 7;
+
+if(cusAge >= 55 || cusAge < 10 && movieTime > 2 || movieTime < 6){  //determining age eligibility and movie time
+    console.log("The ticket price is " + dTickPrice + " dollars.");   //eligibility for discounted ticket
+
+}else{
+    console.log("The ticket price is " + tickPrice + " dollars.");  //then charge regular price
+} 
