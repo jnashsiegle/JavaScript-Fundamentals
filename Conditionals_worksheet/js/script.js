@@ -84,4 +84,4 @@ if(cusAge >= 55 || cusAge < 10 && movieTime > 2 || movieTime < 6){  //determinin
 
 }else{
     console.log("The ticket price is " + tickPrice + " dollars.");  //then charge regular price
-} 
+}
