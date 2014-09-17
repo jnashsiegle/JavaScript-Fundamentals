@@ -11,24 +11,24 @@
 var gender = prompt("Are you male or female?");  //check for gender
 
 console.log("You are " + gender + ".");
-if(gender === ""){
-    var gender;
+while(gender === ""){
+
     gender = prompt("You forgot to input something!"); //checking for empty string, re-running prompt
        console.log("You are " + gender + ".");
 }
 
 var weight = prompt("How much do you weight?");  //Ask for weight
 console.log("You weigh " + weight + ".");
-if(weight === ""){
-    var weight;
+while(weight === ""){
+
     weight = prompt("You forgot to input something!");  // checking for empty string, re-running prompt
         console.log("You weigh " + weight + ".");
 }
 
 var height = prompt("How tall are you in inches?");
 console.log("You are " + height + " inches tall.");
-if(height === ""){
-    var height;
+while(height === ""){
+
     height = prompt("You forgot to input something!"); // checking for empty string, re-running prompt
         console.log("You are " + height + " inches tall.");
 }
