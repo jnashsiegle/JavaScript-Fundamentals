@@ -79,7 +79,8 @@ var movieTime = prompt("What time will you be attending the movie?", 1); //check
 var tickPrice = 12;
 var dTickPrice = 7;
 
-if(cusAge >= 55 || cusAge < 10 && movieTime > 2 || movieTime < 6){  //determining age eligibility and movie time
+//if(cusAge >= 55 || cusAge < 10 && movieTime > 2 || movieTime < 6){  //determining age eligibility and movie time
+if((cusAge >= 55 || cusAge < 10) || (movieTime >=3 && movieTime <= 5)){  //a better way of writing the above line
     console.log("The ticket price is " + dTickPrice + " dollars.");   //eligibility for discounted ticket
 
 }else{
