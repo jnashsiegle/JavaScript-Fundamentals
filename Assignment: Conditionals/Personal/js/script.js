@@ -34,14 +34,14 @@ while(height === ""){
 }
 
 var mWeight = weight * .45;  //converting the pounds to kg
-console.log("The metric conversion of the weight is " + mWeight);
+console.log("The metric conversion of the weight is " + mWeight.toFixed(2));
 
 var mHeight = height * .025;  //converting the inches to meters
-console.log("The metric conversion of the height is " + mHeight);
+console.log("The metric conversion of the height is " + mHeight.toFixed(2));
 
 var sHeight = Math.pow(mHeight, 2);  //squaring the height
-console.log("The square of the height is " + sHeight);
+console.log("The square of the height is " + sHeight.toFixed(2));
 
 var result = mWeight / sHeight; //dividing mWeight by sHeight gives us the BMI
-console.log("The BMI for a person who weighs " +  weight + " pounds and is " + height + " inches tall is " + result +
+console.log("The BMI for a person who weighs " +  weight + " pounds and is " + height + " inches tall is " + result.toFixed(2) +
     ".");
