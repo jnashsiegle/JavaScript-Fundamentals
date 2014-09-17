@@ -39,8 +39,9 @@ console.log("The metric conversion of the weight is " + mWeight);
 var mHeight = height * .025;  //converting the inches to meters
 console.log("The metric conversion of the height is " + mHeight);
 
-var sHeight = pow(height, 2);  //squaring the height
+var sHeight = Math.pow(mHeight, 2);  //squaring the height
 console.log("The square of the height is " + sHeight);
 
 var result = mWeight / sHeight; //dividing mWeight by sHeight gives us the BMI
-console.log("The BMI of the weight and height is " + result + ".");
+console.log("The BMI for a person who weighs " +  weight + " pounds and is " + height + " inches tall is " + result +
+    ".");
