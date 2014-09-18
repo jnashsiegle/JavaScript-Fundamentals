@@ -39,4 +39,4 @@ if(webPDM === "yes"){
 }else{
     console.log("Let's move on to something else.")
 }
-console.log(cDomainName + cHostSite + cWebPDM);
+console.log("Your total fee for services would come to " + cDomainName + cHostSite + cWebPDM);

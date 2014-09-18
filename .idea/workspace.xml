@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f76fb19-cb55-49b2-b407-d1ef1220a30f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment: Conditionals/Industry-specific/js/script.js" afterPath="$PROJECT_DIR$/Assignment: Conditionals/Industry-specific/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment: Conditionals/Personal/js/script.js" afterPath="$PROJECT_DIR$/Assignment: Conditionals/Personal/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Nash_Jana_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +41,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment: Conditionals/Industry-specific/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85924715" vertical-offset="0" max-vertical-offset="615">
-              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.5675676" vertical-offset="0" max-vertical-offset="925">
+              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
               <folding>
                 <element signature="e#0#101#0" expanded="false" />
               </folding>
@@ -95,8 +93,8 @@
         <option value="$PROJECT_DIR$/Assignment: Conditionals/Personal/index.html" />
         <option value="$PROJECT_DIR$/Assignment: Conditionals/Personal/js/script.js" />
         <option value="$PROJECT_DIR$/Assignment: Conditionals/Industry-specific/js/script1.js" />
-        <option value="$PROJECT_DIR$/Assignment: Conditionals/Industry-specific/js/script.js" />
         <option value="$PROJECT_DIR$/Assignment: Conditionals/Industry-specific/index.html" />
+        <option value="$PROJECT_DIR$/Assignment: Conditionals/Industry-specific/js/script.js" />
       </list>
     </option>
   </component>
@@ -289,7 +287,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32948583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.214375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -686,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment: Conditionals/Industry-specific/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85924715" vertical-offset="0" max-vertical-offset="615">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.5675676" vertical-offset="0" max-vertical-offset="925">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
           <folding>
             <element signature="e#0#101#0" expanded="false" />
           </folding>
