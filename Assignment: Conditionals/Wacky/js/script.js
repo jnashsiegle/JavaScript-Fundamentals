@@ -14,31 +14,33 @@ while(playGame === "") {
 
 if(playGame.toLowerCase() === "yes"  || playGame.toLowerCase() === "y"){  //making any input compatible
     console.log("Great!  Let's go!");
+
+
     var randomNumber=Math.floor(Math.random()*101);  //Have game choose a random number
     console.log(Number(randomNumber));
+
 
     var userInput = prompt("Guess a number between 1 and 100."); // have user guess a number
     console.log("You guessed " + Number(userInput) + ".");
 
-
-
-    if(Number(userInput) === Number(randomNumber)) {
-       console.log("Fantastic!  " + Number(userInput) + " is correct!  You got it right!");
-        alert("Fantastic!  " + Number(userInput) + " is correct!  You got it right!");
-
-
-
-    }else(badGuess = ("Try Again! Your guess is to " + ((Number(userInput) < Number(randomNumber)) ? " low." : " high.")));//!(Number(userInput)
-       // > Number(randomNumber)) : " high."));
     {
-        console.log(badGuess);
-    }
 
+
+        if (Number(userInput) === Number(randomNumber)) {
+            console.log("Fantastic!  " + Number(userInput) + " is correct!  You got it right!");  //This block is for correct answer
+            alert("Fantastic!  " + Number(userInput) + " is correct!  You got it right!");
+
+        } else(badGuess = ("Try Again! Your guess is to " + ((Number(userInput) < Number(randomNumber)) ? " low." :
+            " high.")));
+        {//This ternary evaluates incorrect guess as to whether it is too low or high
+
+            console.log(badGuess);
+            prompt(badGuess);
+        }
+    }
 
 
  }else{
     console.log("Awww I'm sorry to see you go!");
 }
 
-/*  }else(badGuess = ("Try Again! Your guess is to " ? !(Number(userInput) < Number(randomNumber)) : " low." ? //!(Number(userInput)
- // > Number(randomNumber)) : " high.")); */
