@@ -15,21 +15,21 @@ while(playGame === "") {
 if(playGame.toLowerCase() === "yes"  || playGame.toLowerCase() === "y"){  //making any input compatible
     console.log("Great!  Let's go!");
     var randomNumber=Math.floor(Math.random()*101);  //Have game choose a random number
-    console.log(randomNumber);
+    console.log(Number(randomNumber));
 
     var userInput = prompt("Guess a number between 1 and 100."); // have user guess a number
-    console.log("You guessed " + userInput + ".");
+    console.log("You guessed " + Number(userInput) + ".");
 
 
 
-    if(userInput === randomNumber) {
-       console.log("Fantastic!  " + userInput + " is correct!  You got it right!");
-        alert("Fantastic!  You got it right!");
+    if(Number(userInput) === Number(randomNumber)) {
+       console.log("Fantastic!  " + Number(userInput) + " is correct!  You got it right!");
+        alert("Fantastic!  " + Number(userInput) + " is correct!  You got it right!");
 
 
 
-    }else(badGuess = ("Try Again! You guess too " ? (userInput < randomNumber) : " low." ? (userInput > randomNumber) :
-    " high."));
+    }else(badGuess = ("Try Again! You guess too " ? (Number(userInput) < Number(randomNumber)) : " low." ? (Number(userInput)
+        > Number(randomNumber)) : " high."));
     {
         console.log(badGuess);
     }
