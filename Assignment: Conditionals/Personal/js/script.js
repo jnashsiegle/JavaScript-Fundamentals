@@ -43,5 +43,5 @@ var sHeight = Math.pow(mHeight, 2);  //squaring the height
 console.log("The square of the height is " + sHeight.toFixed(2));
 
 var result = mWeight / sHeight; //dividing mWeight by sHeight gives us the BMI
-console.log("The BMI for a person who weighs " +  weight + " pounds and is " + height + " inches tall is " + result.toFixed(2) +
-    ".");
+console.log("The BMI for a person who weighs " +  weight + " pounds and is " + height + " inches tall is " +
+    result.toFixed(2) + ".");
