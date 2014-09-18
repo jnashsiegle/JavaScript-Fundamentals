@@ -21,9 +21,9 @@ var domainName = prompt("Would you like to register a domain name?"); // ask if 
     while(domainName === "") {
         domainName = prompt("You forgot to input something!");  // checking for empty string, re-running prompt
     }
-        if(domainName.toLowerCase()  === "yes" || domainName.toLowerCase() === "y") {
-            console.log("You would like us to register a domain name for you. ");
-            cDomainName = 10;
+        if(domainName.toLowerCase()  === "yes" || domainName.toLowerCase() === "y") {  //cover any type of user response
+            console.log("You would like us to register a domain name for you. ");  //summary reply
+            cDomainName = 10;  //fills the cost to customer in if they choose service only to add in later to total
         } else {
             console.log("Let's move on to something else.")
 }
@@ -31,9 +31,9 @@ var hostSite = prompt("Are you interested in hosting services?"); // 50.00 year 
     while(hostSite === "") {
         hostSite = prompt("You forgot to input something!");  // checking for empty string, re-running prompt
     }
-        if (hostSite.toLowerCase() === "yes" || hostSite.toLowerCase() === "y") {
-            console.log("You would like us to host a site for you. ");
-            cHostSite = 50;
+        if (hostSite.toLowerCase() === "yes" || hostSite.toLowerCase() === "y") { //cover any type of user response
+            console.log("You would like us to host a site for you. ");  //summary reply
+            cHostSite = 50;  //fills the cost to customer in if they choose service only to add in later to total
         } else {
             console.log("Let's move on to something else.")
 }
@@ -41,11 +41,11 @@ var webPDM = prompt("Would you like us to design, develop and maintain a website
     while(webPDM === "") {
         webPDM = prompt("You forgot to input something!");  // checking for empty string, re-running prompt
     }
-        if (webPDM.toLowerCase() === "yes" || webPDM.toLowerCase() === "y") {
-            console.log("You would like us to design, develop and maintain a website for you.  Great! ");
-            cWebPDM = 500
+        if (webPDM.toLowerCase() === "yes" || webPDM.toLowerCase() === "y") {  //cover any type of user response
+            console.log("You would like us to design, develop and maintain a website for you.  Great! "); //summary reply
+            cWebPDM = 500;  //fills the cost to customer in if they choose service only to add in later to total
         } else {
             console.log("Let's move on to something else.")
         }
         console.log("Your total fee for services would come to " + (sum = cDomainName + cHostSite + cWebPDM) +
-            " dollars.");
+            " dollars.");  //totals up complete charge for chosen services.
