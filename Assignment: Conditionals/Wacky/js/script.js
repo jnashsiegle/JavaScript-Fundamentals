@@ -28,8 +28,8 @@ if(playGame.toLowerCase() === "yes"  || playGame.toLowerCase() === "y"){  //maki
 
 
 
-    }else(badGuess = ("Try Again! You guess too " ? (Number(userInput) < Number(randomNumber)) : " low." ? (Number(userInput)
-        > Number(randomNumber)) : " high."));
+    }else(badGuess = ("Try Again! Your guess is to " + ((Number(userInput) < Number(randomNumber)) ? " low." : " high.")));//!(Number(userInput)
+       // > Number(randomNumber)) : " high."));
     {
         console.log(badGuess);
     }
@@ -37,6 +37,8 @@ if(playGame.toLowerCase() === "yes"  || playGame.toLowerCase() === "y"){  //maki
 
 
  }else{
-    console.log("Awww I'm sorry to see you go!");  //How to stop here if no, with no further script execution
+    console.log("Awww I'm sorry to see you go!");
 }
 
+/*  }else(badGuess = ("Try Again! Your guess is to " ? !(Number(userInput) < Number(randomNumber)) : " low." ? //!(Number(userInput)
+ // > Number(randomNumber)) : " high.")); */
