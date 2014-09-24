@@ -9,16 +9,28 @@
 
 //alert("testing, testing");
 
-var passengers = prompt("How many people will be going on the trip?", "enter a value between 1-10");  //How many people are going?
-while(passengers === "") {
-    passengers = prompt("You forgot to input something!");
-}
-var carCount = function(passengers){
-    if(passengers <= 5){
-        carCount("one car");
-    }
+console.log("We have two cars available for use. \n How many family members are traveling will \n determine how many cars we use.");
+
+var passengers = prompt("How many family members are going on the trip? \n Input a number between 1-10");
+while(passengers === ""  || isNaN(passengers)){   //validate prompt
+
+    //reprompt user
+    passengers = prompt("Please don't leave blank or type in anything but numbers. \n Please type in a number");
+
 }
 
+var returnCar
+carCount();
+
+function carCount(){
+    if(passengers <= 5)
+     console.log("We will take one car");
+}
+    else{
+    console.log("We will take two cars");
+}
+
+console.log(passengers);
 
 
 
