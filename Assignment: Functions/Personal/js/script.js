@@ -40,10 +40,16 @@ console.log("We have " + passengers + " family members going.");
 
 
 var cashCredit = prompt("Will we pay for gas with cash or credit?");
+
 while (cashCredit === "") {
     cashCredit = prompt("You forgot to answer the question or used a number. \n Please say cash or credit.");
 }
 
+if(cashCredit == "cash"){
+    console.log("We will pay with cash and be eligible for the cash discount.");
+}
+else{
+    console.log("We will pay with the credit card.");
+}
 
 
-console.log(cashCredit);
