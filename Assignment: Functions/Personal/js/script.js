@@ -35,7 +35,11 @@ function carCount() {
     return returnCar;
 }
 
-console.log(passengers);
+console.log("We have " + passengers + " family members going.");
 
+var cash = prompt("Will we pay for gas with cash or credit?");
+while(cash=== ""){
+    cash = prompt("You forgot to answer the question. \n Please say cash or credit.");
+}
 
 
