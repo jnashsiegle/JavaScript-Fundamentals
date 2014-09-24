@@ -19,15 +19,20 @@ while(passengers === ""  || isNaN(passengers)){   //validate prompt
 
 }
 
-var returnCar
+var returnCar;
 carCount();
 
-function carCount(){
-    if(passengers <= 5)
-     console.log("We will take one car");
-}
-    else{
-    console.log("We will take two cars");
+function carCount() {
+    if (passengers <= 5) {
+        console.log("We will take one car");
+    }
+
+    if (passengers > 5) {
+
+            console.log("We will take two cars");
+    }
+
+    return returnCar;
 }
 
 console.log(passengers);
