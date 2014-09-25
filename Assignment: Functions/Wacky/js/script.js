@@ -8,21 +8,31 @@ Assignment: Functions - Wacky */
 
 
 
-var userInput = prompt("Input a number between 1 and 6");
-rollDie();
-var ranRoll = rollDie();
+rollDie(min, userInput);
+min = 1;
 
 
+userInput = prompt("Input a number between 1 and 36");
 
+function rollDie(min, userInput) {
 
-function rollDie() {
-    var die = Math.floor(Math.random() * 6) + 1;
-    console.log("You rolled " + die);
+    var die1 = Math.floor(Math.random() * 6) + min;
+    var die2 = Math.floor(Math.random() * 6) + min;
+    var dieTotal = die1 + die2;
+
+    console.log("You rolled " + dieTotal);
+
+    if(userInput === dieTotal){
+        alert("You Win!");
+
+    }
+
+    dieTotal = rollDie(min, userInput);
+    console.log("This is our random number " + dieTotal  + "but you picked " + userInput);
 
 
 }
 
-console.log("This is our random number " + ranRoll  + "but you picked " + userInput);
 
 
 //var returnDie = rollDie();
