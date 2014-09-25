@@ -32,15 +32,15 @@ function rollDie(min, userInput) {
         alert("I'm sorry, you did not win this time");
     }
 
-    //dieTotal = rollDie(min, userInput);
-    console.log("This is our random number " + dieTotal  + " but you picked " + userInput);
+
+    console.log("The dice rolled a total number of " + dieTotal  + " and you picked " + userInput);
 
 
 }
 
 
 
-//var returnDie = rollDie();
+
 
 
 
