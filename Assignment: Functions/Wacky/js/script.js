@@ -22,15 +22,12 @@ function rollDie(min, userInput) {
     var die2 = Math.floor(Math.random() * 6) + min;
     var dieTotal = die1 + die2;
 
+
+    var response = (userInput == dieTotal)? "Win"  : "Lose" ;
+    alert(response);
+
     //console.log("You rolled " + dieTotal);
 
-    if(userInput === dieTotal){
-        alert("You Win!");
-
-    }
-    else{
-        alert("I'm sorry, you did not win this time");
-    }
 
 
     console.log("The dice rolled a total number of " + dieTotal  + " and you picked " + userInput);
