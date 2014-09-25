@@ -9,6 +9,8 @@
 
 //alert("testing, testing");
 
+//How many cars do we need to take?
+
 console.log("We have two cars available for use. \n How many family members are traveling will \n determine how many cars we use.");
 
 var passengers = prompt("How many family members are going on the trip? \n Input a number between 1-10");

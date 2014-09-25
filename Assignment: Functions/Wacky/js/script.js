@@ -6,6 +6,8 @@ Assignment: Functions - Wacky */
 
 //alert("testing testing 1, 2 3");
 
+    //Roll Dice Game
+
 var min = 1;  //minimal number die can total
 var userInput = prompt("Input a number between 2 and 12");  //prompt for user guess
 while(userInput === ""  || isNaN(userInput )) {   //validate user response to number's only no blanks
