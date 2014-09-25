@@ -7,8 +7,8 @@ Assignment: Functions - Wacky */
 //alert("testing testing 1, 2 3");
 
 
-var min = 1;
-userInput = prompt("Input a number between 1 and 36");
+var min = 2;
+userInput = prompt("Input a number between 1 and 12");
 rollDie(min, userInput);
 
 
@@ -18,11 +18,11 @@ rollDie(min, userInput);
 function rollDie(min, userInput) {
 
 
-    var die1 = Math.floor(Math.random() * 6) + min;
-    var die2 = Math.floor(Math.random() * 6) + min;
+    var die1 = Math.floor(Math.random() * 12) + min;
+    var die2 = Math.floor(Math.random() * 12) + min;
     var dieTotal = die1 + die2;
 
-    console.log("You rolled " + dieTotal);
+    //console.log("You rolled " + dieTotal);
 
     if(userInput === dieTotal){
         alert("You Win!");
