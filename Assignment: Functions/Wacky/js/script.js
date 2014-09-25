@@ -7,14 +7,16 @@ Assignment: Functions - Wacky */
 //alert("testing testing 1, 2 3");
 
 
-
-rollDie(min, userInput);
-min = 1;
-
-
+var min = 1;
 userInput = prompt("Input a number between 1 and 36");
+rollDie(min, userInput);
+
+
+
+
 
 function rollDie(min, userInput) {
+
 
     var die1 = Math.floor(Math.random() * 6) + min;
     var die2 = Math.floor(Math.random() * 6) + min;
@@ -26,9 +28,12 @@ function rollDie(min, userInput) {
         alert("You Win!");
 
     }
+    else{
+        alert("I'm sorry, you did not win this time");
+    }
 
-    dieTotal = rollDie(min, userInput);
-    console.log("This is our random number " + dieTotal  + "but you picked " + userInput);
+    //dieTotal = rollDie(min, userInput);
+    console.log("This is our random number " + dieTotal  + " but you picked " + userInput);
 
 
 }
