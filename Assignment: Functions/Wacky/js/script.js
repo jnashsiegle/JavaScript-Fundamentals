@@ -18,8 +18,8 @@ rollDie(min, userInput);
 function rollDie(min, userInput) {
 
 
-    var die1 = Math.floor(Math.random() * 12) + min;
-    var die2 = Math.floor(Math.random() * 12) + min;
+    var die1 = Math.floor(Math.random() * 6) + min;
+    var die2 = Math.floor(Math.random() * 6) + min;
     var dieTotal = die1 + die2;
 
     //console.log("You rolled " + dieTotal);
