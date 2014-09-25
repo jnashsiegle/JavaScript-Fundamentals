@@ -19,37 +19,37 @@ while(passengers === ""  || isNaN(passengers)){   //validate prompt
 
 }
 
-var returnCar;
+var returnCar;  //return function data
 carCount();
 
 function carCount() {
-    if (passengers <= 5) {
-        console.log("We will take one car");
+    if (passengers <= 5) {  //determining if one car or two will be used
+        console.log("We will take one car.");  //print out response
     }
 
-    if (passengers > 5) {
+    if (passengers > 5) {    //determining if one car or two will be used
 
-            console.log("We will take two cars");
+            console.log("We will take two cars.");  //print out response
     }
 
-    return returnCar;
+    return returnCar;  //returns function to variable returnCar
 }
 
-console.log("We have " + passengers + " family members going.");
+console.log("We have " + passengers + " family members going.");   //how many family members are going?
 
 
 
-var cashCredit = prompt("Will we pay for gas with cash or credit?");
+var cashCredit = prompt("Will we pay for gas with cash or credit?");  //find out if gas pay will be cash or credit
 
 while (cashCredit === "") {
-    cashCredit = prompt("You forgot to answer the question or used a number. \n Please say cash or credit.");
+    cashCredit = prompt("You forgot to answer the question or used a number. \n Please say cash or credit.");  //validate
 }
 
 if(cashCredit == "cash"){
-    console.log("We will pay with cash and be eligible for the cash discount.");
+    console.log("We will pay with cash and be eligible for the cash discount.");  //report which payment method
 }
 else{
-    console.log("We will pay with the credit card.");
+    console.log("We will pay with the credit card.");  //report which payment method
 }
 
 
