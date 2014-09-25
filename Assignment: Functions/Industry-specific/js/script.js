@@ -8,4 +8,5 @@
 
 //Basic Color Converter
 
-
+var colorArray = ["red", "blue", "green", "white", "black"];
+var hexArray = ["#FF0000", "#0000FF", "008000", "#FFFFFF", "#000000"];
