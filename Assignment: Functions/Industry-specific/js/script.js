@@ -46,6 +46,10 @@ function findHex(userChoice){
 }
 
 var userChoice = prompt("Choose a color:  " + " Red, Blue, Green, White, or Black.");
+
+while(userChoice === ""){
+    userChoice = prompt("Please don't leave blank.  \n Choose a color:  " + " Red, Blue, Green, White, or Black.")
+}
 console.log("Choose a color:  " + " Red, Blue, Green, White, or Black.");
 var hexNum = findHex(userChoice);
 
