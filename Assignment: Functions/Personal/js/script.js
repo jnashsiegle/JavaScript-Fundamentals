@@ -26,10 +26,9 @@ function carCount() {
     if (passengers <= 5) {  //determining if one car or two will be used
         console.log("We will take one car.");  //print out response
     }
+    else{
 
-    if (passengers > 5) {    //determining if one car or two will be used
-
-            console.log("We will take two cars.");  //print out response
+        console.log("We will take two cars.");  //print out response
     }
 
     return returnCar;  //returns function to variable returnCar
