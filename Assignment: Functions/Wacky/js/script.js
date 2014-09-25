@@ -6,9 +6,15 @@ Assignment: Functions - Wacky */
 
 //alert("testing testing 1, 2 3");
 
-
 var min = 2;
-userInput = prompt("Input a number between 1 and 12");
+var userInput = prompt("Input a number between 1 and 12");
+while(userInput === ""  || isNaN(userInput )) {
+
+
+    //reprompt user
+    userInput = prompt("Please don't leave blank or type in anything but numbers. \n Please type in a number");
+}
+
 rollDie(min, userInput);
 
 
@@ -34,9 +40,6 @@ function rollDie(min, userInput) {
 
 
 }
-
-
-
 
 
 
